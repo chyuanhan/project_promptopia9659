@@ -121,7 +121,7 @@
   }
 
   .prompt_layout {
-    @apply mt-16 mb-16 grid gap-8 items-center md:grid-cols-2 lg:grid-cols-3;
+    @apply my-16 grid gap-8 items-center md:grid-cols-2 lg:grid-cols-3;
   }
 
   /* Feed Component */

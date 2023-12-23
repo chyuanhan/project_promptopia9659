@@ -6,7 +6,7 @@ import PromptCard from "./PromptCard"
 
 const PromptCardList = ({data,handleTagClick}) => {
   return(
-    <div className="mt-16 prompt_layout">
+    <div className="prompt_layout">
       {data.map((post) => (
         <PromptCard
           key={post.id}
@@ -39,7 +39,7 @@ const Feed = () => {
       setPosts(data)
     }
     fetchPosts()
-  },[])
+  },[posts])
   
   const filterPrompt = (searchText) =>{
     const regex = new RegExp(searchText,"i") // "i" flag for case-insensitive search
