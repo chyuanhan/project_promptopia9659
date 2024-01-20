@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# A CRUD project with Next.js
+>[Live Demo](https://project-promptopia9659.vercel.app/)
 
-## Getting Started
+![Screenshot promptopia](https://github.com/chyuanhan/project_promptopia9659/assets/56546556/642030b4-1724-448f-a449-42afb7520667)
+![Screenshot promptopia(1)](https://github.com/chyuanhan/project_promptopia9659/assets/56546556/f453f14e-d289-452b-9c7c-51fff01363bc)
 
-First, run the development server:
+## Build with
+<img src="https://slashdev.io/_next/image?url=https%3A%2F%2Fslashdevcms.nyc3.digitaloceanspaces.com%2Fcms%2Fuploads%2F2023%2F04%2F14175618%2FUntitled-design-33.png&w=640&q=70" width="100" height="100" /><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" width="100" height="100" /><img src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png" width="100" height="100" /><img src="https://blog.logrocket.com/wp-content/uploads/2021/08/authenticate-access-google-apis-using-oauth-2-0.png" width="150" height="100" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funtions
+<ul>
+  <li>Sign in with Google accounts(Google OAuth)</li>
+  <li>CRUD posts according to Google account</li>
+  <li>Real-time search and display feed</li>
+  <ul>
+    <li>By tag</li>
+    <li>By prompt content</li>
+    <li>By username</li>
+  </ul>
+  <li>Display feed by on tag click</li>
+  <li>View other profile</li>
+</ul>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
